@@ -140,8 +140,8 @@ function ejecutarScriptJsPDF() {
                 }
                 imgIndex++;
             }
-            pdf.save(`${docInfo.titulo}.pdf`);
-            console.log(`PDF generado: ${docInfo.titulo}.pdf`);
+            pdf.save(`${docInfo.titulo}`);
+            console.log(`PDF generado: ${docInfo.titulo}`);
         });
     };
     jspdf.src = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js';
